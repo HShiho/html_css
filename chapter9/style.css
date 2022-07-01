@@ -1,0 +1,75 @@
+/*resetCSS*/
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+/*--------*/
+
+header{
+  width:100%;
+  height:50px;
+  background-color:#ff9a4b;
+}
+
+main{
+  margin:50px auto;
+  width:960px;
+  display:flex;
+}
+
+.contents{
+  width:300px;
+  background-color:#eee;
+  margin-right:30px;
+  padding:10px;
+  position:relative;
+}
+
+.contents:last-child{
+  margin-right:0;
+}
+
+.contents-visual{
+  height:150px;
+  background-position:bottom;
+  background-size:cover;
+}
+
+.visual-step1{
+  background-image:url(img/flow01.png);
+}
+
+.visual-step2{
+  background-image:url(img/flow02.png);
+}
+
+.visual-step3{
+  background-image:url(img/flow03.png);
+}
+
+.step-logo{
+  color:#fff;
+  margin:unset;
+  background-color:#ff9a4b;
+  width:45px;
+  position:relative;
+  top:-10px;
+  left:-10px;
+}
+
+.text{
+  padding:0 10px;
+  margin:10px auto;
+}
+
+.text h3{
+  padding:5px 0;
+}
+
+
+footer{
+  background-color:#aaa;
+  width:100%;
+  height:50px
+}
